@@ -1,0 +1,14 @@
+h1  
+{
+    color: goldenrod;
+    font: Rubik, sans-serif;
+    size: 24pt;
+}
+
+h2{
+    color: white;
+    font: Roca, serif;
+    size: 8pt;
+    text-justify: left;
+    box-sizing: 620px;
+}
