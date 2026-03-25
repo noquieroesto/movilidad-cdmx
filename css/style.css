@@ -6,6 +6,12 @@ h1
 }
 
 h2{
+    color: goldenrod;
+    font: Roca, serif;
+    size: 12pt;
+}
+
+p{
     color: white;
     font: Roca, serif;
     size: 8pt;
