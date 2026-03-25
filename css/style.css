@@ -1,20 +1,49 @@
-h1  
-{
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
     color: goldenrod;
     font: Rubik, sans-serif;
     size: 24pt;
 }
 
-h2{
+h2 {
     color: goldenrod;
     font: Roca, serif;
     size: 12pt;
 }
 
-p{
+p {
     color: white;
     font: Roca, serif;
     size: 8pt;
     text-justify: left;
     box-sizing: 620px;
+}
+
+.hero-img {
+    width: 100%;
+    aspect-ratio: 1.777777;
+    height: auto;
+    background-size: contain;
+    position: relative;
+    display: flex;
+}
+
+#hero-title {
+    background-image: url("../img/hero1.jpg");
+}
+
+#hero-text {
+    background-image: url("../img/hero2.jpg");
+}
+
+#hero-btn {
+    background-image: url("../img/hero3.jpg");
 }
