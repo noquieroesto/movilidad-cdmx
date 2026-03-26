@@ -53,12 +53,6 @@ p {
     height: auto;
     background-size: contain;
     position: relative;
-<<<<<<< HEAD
-    image-u;
-=======
-    display: flex;
-    image-u:
->>>>>>> 7ea0c96 (fix: correct syntax error in .hero-img class)
     overflow: visible;
     padding: 1em;
     background-repeat: no-repeat;
@@ -81,7 +75,7 @@ p {
 
 #hero-btn a {
     width: 100%;
-    max-width: 120px;
+    max-width: 240px;
     height: auto;
     display: inline-block;
     position: absolute;
