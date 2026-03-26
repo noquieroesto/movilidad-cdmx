@@ -30,6 +30,8 @@ p {
     text-justify: left;
     margin: 0%;
     width: 49%;
+    margin-top: -10%;
+    padding-left: 5%;
 }
 
 .hero-img {
