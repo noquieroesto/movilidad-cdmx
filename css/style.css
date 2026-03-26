@@ -60,4 +60,22 @@ p {
 
 #hero-btn {
     background-image: url("../img/hero3.jpg");
+    display: block;
+}
+
+#hero-btn a {
+    width: 100%;
+    max-width: 240px;
+    height: auto;
+    display: inline-block;
+    position: absolute;
+    right: 14%;
+    bottom: 17%;
+}
+
+#hero-btn img {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    margin: 0 auto;
 }
