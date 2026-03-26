@@ -10,7 +10,11 @@ body {
 h1 {
     color: goldenrod;
     font: Rubik, sans-serif;
-    size: 24pt;
+    size: 200pt;
+    margin: 0%;
+    text-align: center;
+    position:relative;
+    width: 100%;
 }
 
 h2 {
@@ -22,9 +26,10 @@ h2 {
 p {
     color: white;
     font: Roca, serif;
-    size: 8pt;
+    size: 9pt;
     text-justify: left;
-    box-sizing: 620px;
+    margin: 0%;
+    width: 49%;
 }
 
 .hero-img {
@@ -34,6 +39,7 @@ p {
     background-size: contain;
     position: relative;
     display: flex;
+    padding-top: 10%;
 }
 
 #hero-title {
