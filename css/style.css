@@ -3,13 +3,13 @@
 }
 
 body {
-    background-color: rgb(39, 114, 183)
+    background-color: rgb(39, 114, 183);
     padding: 0;
     margin: 0;
     aspect-ratio: 1.777777 / 3;
     /* background-image: url("../img/hero1.jpg"), url("../img/hero2.jpg"), url("../img/hero3.jpg"); */
     background-size: 100% auto;
-    background-position: 0% 0, 0 46%, 0 92%;
+    background-position: 0% 0%, 0% 46%, 0% 92%;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
