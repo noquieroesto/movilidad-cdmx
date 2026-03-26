@@ -8,13 +8,14 @@ body {
 }
 
 h1 {
-    color: goldenrod;
-    font: Rubik, sans-serif;
-    size: 200pt;
+    color: transparent;
     margin: 0%;
     text-align: center;
     position:relative;
     width: 100%;
+    line-height: 1em;
+    height: auto;
+    padding: 0;
 }
 
 h2 {
@@ -42,7 +43,9 @@ p {
     position: relative;
     display: flex;
     padding-top: 10%;
+    image-u
 }
+
 
 #hero-title {
     background-image: url("../img/hero1.jpg");
