@@ -5,6 +5,12 @@
 body {
     padding: 0;
     margin: 0;
+    aspect-ratio: 1.777777 / 3;
+    /* background-image: url("../img/hero1.jpg"), url("../img/hero2.jpg"), url("../img/hero3.jpg"); */
+    background-size: 100% auto;
+    background-position: 0% 0, 0 46%, 0 92%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 h1 {
@@ -30,11 +36,13 @@ p {
     font-size: 16px;
     text-align: left;
     margin: 0%;
-    width: 50%;
+    width: 100%;
     padding-left: 5%;
     min-width: 290px;
+    max-width: 60ch;
     height: auto;
     text-shadow: 1px 0px 3px black;
+    padding: .5em 0;
 }
 
 .hero-img {
@@ -43,9 +51,10 @@ p {
     height: auto;
     background-size: contain;
     position: relative;
-    display: flex;
     image-u;
     overflow: visible;
+    padding: 1em;
+    background-repeat: no-repeat;
 }
 
 
@@ -65,7 +74,7 @@ p {
 
 #hero-btn a {
     width: 100%;
-    max-width: 240px;
+    max-width: 120px;
     height: auto;
     display: inline-block;
     position: absolute;
