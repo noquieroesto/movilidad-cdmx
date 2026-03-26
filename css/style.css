@@ -26,13 +26,15 @@ h2 {
 
 p {
     color: white;
-    font: Roca, serif;
-    size: 9pt;
-    text-justify: left;
+    font-family: Roca, serif;
+    font-size: 16px;
+    text-align: left;
     margin: 0%;
-    width: 49%;
-    margin-top: -10%;
+    width: 50%;
     padding-left: 5%;
+    min-width: 290px;
+    height: auto;
+    text-shadow: 1px 0px 3px black;
 }
 
 .hero-img {
@@ -42,13 +44,14 @@ p {
     background-size: contain;
     position: relative;
     display: flex;
-    padding-top: 10%;
-    image-u
+    image-u;
+    overflow: visible;
 }
 
 
 #hero-title {
     background-image: url("../img/hero1.jpg");
+    padding-top: 10%;
 }
 
 #hero-text {
